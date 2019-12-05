@@ -41,10 +41,13 @@
     </style>
   </head>
   <body>
+    <!-- SLOGAN -->
     <div class="container-fluid knights-bg-color">
       <p class="mb-0 text-center small text-white font-weight-bold">It's cool to be a Knight!</p>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="img/kofc-logo.png" width="161.33" height="50" class="d-inline-block align-top" alt="">
@@ -60,19 +63,19 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Newsletter</a>
+              <a class="nav-link" href="newsletter.html">Newsletter</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Calendar</a>
+              <a class="nav-link" href="calendar.html">Calendar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Photo Gallery</a>
+              <a class="nav-link" href="photo-gallery.html">Photo Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Join / Contact Us</a>
+              <a class="nav-link" href="contact-us.html">Join / Contact Us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -88,63 +91,67 @@
         </div>
       </div>
     </nav>
+
+    <!-- CONTENT -->
+    <div>
     <div class="d-flex jumbotron jumbotron-fluid" >
       <img src="img/st-martin-de-porres.jpg" class="img-fluid jumbotron-background" style="-webkit-filter: blur(50px); filter: blur(50px);" >
       <div class="d-flex flex-wrap-reverse flex-md-nowrap w-100 justify-content-around" style="z-index:2;"">
-        <div class="text-white align-self-center ">
-          <h3 class="text-uppercase ">
+        <div class="text-light align-self-center ">
+          <h3 class="text-uppercase mx-auto d-block text-center">
             <span class="p-2">Knights of Columbus</span><br/>
             <span class="p-2">Council 8238</span><br/>
             <span class="p-2">Yorba Linda, CA</span>
           </h3>
-          <button class="mt-4 mx-auto btn knights-bg-color text-white px-4" type="button">Our Parish</button>
+          <button class="mt-4 mx-auto d-block btn knights-bg-color text-white px-4" type="button">Our Parish</button>
         </div>
         <div class="">
-          <img src="img/st-martin-de-porres.jpg" class="" style="height: auto; width:75%;">
+          <img src="img/st-martin-de-porres.jpg" class=" mx-auto d-block" style="height: auto; width:75%;">
         </div>
       </div>
     </div>
-
     <div class="container-fluid">
       <div class="row justify-content-around">
-        <div class="my-2 col-md-3">
+        <div class="my-4 col-md-3">
           <div class="mx-auto" style="width:250px;">
-              <img class="rounded-circle" src="img/st-martin-de-porres.jpg">
-              <h3 class="my-4 w-100 text-center">Newsletter</h2>
-              <h6 class="my-4 w-100 text-center">Latest news for our council</h4>
-              <div class="my-4 text-center">
-                <button class="mx-auto btn knights-bg-color text-white" type="button">Newsletter</button>
+              <img class="rounded-circle mx-auto d-block" src="img/rosary-in-hands.jpg" >
+              <h4 class="my-2 w-100 text-center">Newsletter</h2>
+              <h4 class="small mt-2 mb-3 w-100 text-center text-muted">Latest news for our council</h4>
+              <div class="my-2 text-center">
+                <a class="mx-auto btn knights-bg-color text-white" href="newsletter.html" role="button">Newsletter</a>
               </div>
           </div>
         </div>
-        <div class="my-2 col-md-3">
+        <div class="my-4 col-md-3">
             <div class="mx-auto" style="width:250px;">
-                <img class="rounded-circle" src="img/st-martin-de-porres.jpg">
-                <h3 class="my-4 w-100 text-center">Knights in Action</h2>
-                <h6 class="my-4 w-100 text-center">In service to one, in service to all</h4>
-                <div class="my-4 text-center">
-                  <button class="mx-auto btn knights-bg-color text-white" type="button">Event Photos</button>
+                <img class="rounded-circle mx-auto d-block" src="img/knights-in-action.jpg">
+                <h4 class="my-2 w-100 text-center">Knights in Action</h2>
+                <h4 class="small mt-2 mb-3 w-100 text-center text-muted">In service to one, in service to all</h4>
+                <div class="my-2 text-center">
+                  <a class="mx-auto btn knights-bg-color text-white" href="photo-gallery.html" role="button">Event Photos</a>
                 </div>
             </div>
         </div>
-        <div class="my-2 col-md-3">
+        <div class="my-4 col-md-3">
             <div class="mx-auto" style="width:300px;">
-                <img class="rounded-circle" src="img/st-martin-de-porres.jpg">
-                <h3 class="my-4 w-100 text-center">About Us</h2>
-                <h6 class="my-4 w-100 text-center">Who are these men they call knights?</h4>
-                <div class="my-4 text-center">
-                  <button class="mx-auto btn knights-bg-color text-white" type="button">Find out more</button>
+                <img class="rounded-circle mx-auto d-block" src="img/about-us.jpg">
+                <h4 class="my-2 w-100 text-center">About Us</h2>
+                <h4 class="small mt-2 mb-3 w-100 text-center text-muted">Who are these men they call knights?</h4>
+                <div class="my-2 text-center">
+                  <a class="mx-auto btn knights-bg-color text-white" href="about-us.html" role="button">Find out more</a>
                 </div>
             </div>
         </div>
       </div>
     </div>
+    </div>
 
+    <!-- FOOTER -->
     <div class="mb-4" >
       <div class="mx-auto" style="width: 90%;">
         <hr/>
       </div>
-      <div class="mx-auto w-75 text-center">
+      <div class="mx-auto w-75 text-center small">
         <span>Copyright © 2018 Knights of Columbus 8238 St. Martin de Porres, Yorba Linda CA </span>
       </div>
     </div>
