@@ -1,0 +1,22 @@
+{
+  "name": "kofc-ui-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcinadr/kofc-ui-v2.git"
+  },
+  "author": "David Cinadr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcinadr/kofc-ui-v2/issues"
+  },
+  "homepage": "https://github.com/dcinadr/kofc-ui-v2#readme",
+  "dependencies": {
+    "papaparse": "^5.1.1"
+  }
+}
