@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/dcinadr/kofc-ui-v2#readme",
   "dependencies": {
-    "papaparse": "^5.1.1"
+    "papaparse": "^5.2.0"
   }
 }
